@@ -1,0 +1,31 @@
+----------------------------------------------------------------------
+M3G - Modelling Mantle Magmatism for Geochemists (M3G) - Model parameters.
+Variables, names, references and descriptions are separated by the "|" character.
+Created by Romain Tilhac (romain.tilhac@csic.es).
+----------------------------------------------------------------------
+
+PARAMETERS
+
+Variable				|Value		|Description	
+
+time_end                |0.005      |duration [My]
+
+x1                      |0          |domain X first vertice [m]
+x2                      |300        |domain X second vertice [m]     
+y1                      |0          |domain Y first vertice [m]
+y2                      |1000       |domain Y second vertice [m]
+
+fix_poros               |0.01       |constant melt porosity (vol. fraction)
+fix_P                   |1.2        |constant pressure [GPa]
+fix_T                   |1200       |constant temperature [ºC]
+fix_Vy                  |5          |constant melt velocity [cm/y]
+r_Eu                    |1          |Eu2+/Eu3+ proportion (only used if options.Eu_diff == 1)
+
+ini_radi_Solid_Oli		|1			|Oli, initial grain size [mm]
+ini_radi_Solid_Opx		|1			|Opx, initial grain size [mm]
+ini_radi_Solid_Cpx		|1			|Cpx, initial grain size [mm]
+ini_radi_Solid_Plg		|1			|Plg, initial grain size [mm]
+ini_radi_Solid_Spl		|1			|Spl, initial grain size [mm]
+ini_radi_Solid_Grt		|1			|Grt, initial grain size [mm]
+
+

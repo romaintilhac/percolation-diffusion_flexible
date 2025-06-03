@@ -1,0 +1,25 @@
+----------------------------------------------------------------------
+M3G - Modelling Mantle Magmatism for Geochemists (M3G) - Options.
+Variables, names and descriptions are separated by the "|" character.
+Created by Romain Tilhac (romain.tilhac@csic.es).
+----------------------------------------------------------------------
+
+Variable				|Value		|Description	
+
+fix_radi                |0          |1 fix grain size to initial size
+Eu_diff                |1          |1 use Eu diffusivities in Cpx based on Sr diffusivities from Sneeringer et al. 1984 (only used if Eu and Cpx are present)
+syntheticCpx            |1          |1 synthetic diopside (conservative), 0 to use natural diopside (only used if Eu_diff == 1)
+
+diffT_TE_Solid_Oli		|1			|Oli, 0 fixed diffusivity, 1 T-dependent diffusivity
+diffT_TE_Solid_Opx		|1			|Opx, 0 fixed diffusivity, 1 T-dependent diffusivity
+diffT_TE_Solid_Cpx		|1			|Cpx, 0 fixed diffusivity, 1 T-dependent diffusivity
+diffT_TE_Solid_Plg		|1			|Plg, 0 fixed diffusivity, 1 T-dependent diffusivity
+diffT_TE_Solid_Spl		|1			|Spl, 0 fixed diffusivity, 1 T-dependent diffusivity
+diffT_TE_Solid_Grt		|1			|Grt, 0 fixed diffusivity, 1 T-dependent diffusivity
+
+diffP_TE_Solid_Oli  	|0			|Oli, 0 fixed diffusivity, 1 P-dependent diffusivity (only used if already T-dependent) 
+diffP_TE_Solid_Opx		|0			|Opx, 0 fixed diffusivity, 1 T-dependent diffusivity (only used if already T-dependent) 
+diffP_TE_Solid_Cpx		|1			|Cpx, 0 fixed diffusivity, 1 P-dependent diffusivity (only used if already T-dependent)
+diffP_TE_Solid_Plg		|0			|Plg, 0 fixed diffusivity, 1 T-dependent diffusivity (only used if already T-dependent)
+diffP_TE_Solid_Spl		|0			|Spl, 0 fixed diffusivity, 1 T-dependent diffusivity (only used if already T-dependent)
+diffP_TE_Solid_Grt		|1			|Grt, 0 fixed diffusivity, 1 P-dependent diffusivity (only used if already T-dependent)

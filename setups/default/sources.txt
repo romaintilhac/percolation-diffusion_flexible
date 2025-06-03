@@ -1,0 +1,26 @@
+----------------------------------------------------------------------
+M3G - Modelling Mantle Magmatism for Geochemists (M3G) - Input sources.
+Variables, names, references and descriptions are separated by the "|" character.
+Created by Romain Tilhac (romain.tilhac@csic.es).
+----------------------------------------------------------------------
+	
+Variable				|Name				|Reference				    |Description	
+
+TE_Solid		        	|solid      		|Tilhac et al. 2023		|Starting lithophile trace-element compositions of the solid
+TE_Liquid		        	|liquid     		|Tilhac et al. 2023		|Starting lithophile trace-element compositions of the liquid
+
+mode_Solid				|test				|benchmark                  |Starting modal compositions of peridotite
+
+KdTE_Solid_Oli			|melt				|Tilhac et al. 2023   |Partition coefficients of TE
+KdTE_Solid_Opx			|melt				|Tilhac et al. 2023   |Partition coefficients of TE
+KdTE_Solid_Cpx			|melt				|Tilhac et al. 2023   |Partition coefficients of TE
+KdTE_Solid_Spl			|melt				|Tilhac et al. 2023   |Partition coefficients of TE
+KdTE_Solid_Grt			|melt				|Tilhac et al. 2023   |Partition coefficients of TE
+KdTE_Solid_Plg			|melt				|Tilhac et al. 2023   |Partition coefficients of TE
+
+diffTE_Solid_Oli		|experiment			|Cherniak 2010  	|Diffusivities of TE
+diffTE_Solid_Opx		|experiment			|Cherniak & Liang 2007 |Diffusivities of TE
+diffTE_Solid_Cpx		|model				|Van Orman et al. 2002b |Diffusivities of TE
+diffTE_Solid_Spl		|experiment			|Cherniak 2010  |Diffusivities of TE
+diffTE_Solid_Grt		|model				|Van Orman et al. 2002b |Diffusivities of TE
+diffTE_Solid_Plg		|experiment			|Cherniak 2003  |Diffusivities of TE

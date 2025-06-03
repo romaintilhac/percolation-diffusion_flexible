@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+M3G - Modelling Mantle Magmatism for Geochemists (M3G) - Lists.
+Variables, values and descriptions are separated by the "|" character. Rows starting with % are ignored.
+Created by Romain Tilhac (romain.tilhac@csic.es)
+----------------------------------------------------------------------
+            
+Variable	|Value						                 |Description	
+
+litho		|Solid						                 |lithologies
+TP		    |Oli Opx Cpx Grt Spl Plg	                 |minerals (thermodynamic phases)
+SP		    |						                                            |minerals (for chalcophile elements)
+ME		    |						                     |major elements (thermodynamic components)
+SE		    |						                     |major elements (for sulfides)
+TE		    |La Ce Pr Nd Sm Eu Gd Tb Dy Ho Er Tm Yb Lu   |lithophile trace elements
+CE		    |						                     |chalcophile trace elements
+isoTE		|						                     |lithophile isotope systems	
+isoCE		|						                     |chalcophile isotope systems			

@@ -1,0 +1,32 @@
+----------------------------------------------------------------------
+M3G - Modelling Mantle Magmatism for Geochemists (M3G) - Computational settings.
+Variables, values and descriptions are separated by the "|" character. 
+Created by Romain Tilhac (romain.tilhac@csic.es).
+----------------------------------------------------------------------
+
+Variable		    |Value	|Description	
+
+mode_tolerance		|0.05	|tolerance (%) for acceptable sum of modal compositions 
+melting_tolerance	|0	    |tolerance (%) for acceptable sum of melting coefficients
+
+elemTypeT           |1;     |Quads (Eulerian mesh for temperature)
+nent                |4;     |Number of nodes per element (velocity)
+nxt                 |10;    |Number of nodes -1 in x direction
+nyt                 |10;    |Number of nodes -1 in y direction
+mxelem              |5;     |Number of Lagrangian markers in x direction per element WARNING unused
+myelem              |5;     |Number of Lagrangian markers in y direction per element
+markmove            |4;     |Moving Lagrangian markers: 0 = not moving at all, 1 = simple 1-st order advection, 4 = 4-th order in space Runge-Kutta
+
+nc	                |51		|number of nodes for the diffusion profiles
+exp_factor          |0.3    |exponential factor for non-uniform mesh generation
+n_Tp0               |5E5    |default number of particles per unit volume
+tol_NTE	            |1E-8	|numerical tolerance for non-trivial existence of phase (mass or vol. fraction)
+tol_TE              |1E-9   |numerical tolerance for the relative error in trace element concentrations (relative)
+tol_TE_abs          |5E-9   |numerical tolerance for convergence of trace element concentrations (absolute mass fraction)
+max_iter_TE         |40     |maximum number of iterations
+iter_negative_max   |30     |number of correction iterations to fix negative fluid compositions 
+damping0            |0.5    |initial damping factor for TE iteration
+damping1            |1      |damping factor for TE iteration
+
+save_interval       |1      |saving interval: 1, every timestep
+
